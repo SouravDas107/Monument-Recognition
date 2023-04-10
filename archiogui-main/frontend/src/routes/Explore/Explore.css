@@ -1,0 +1,32 @@
+.pageWrap {
+	padding: 20px 40px;
+}
+
+.navbarItemStyle li {
+	list-style: none;
+	margin-right: 10px;
+}
+
+.navbarItemStyle {
+	display: flex;
+}
+
+.navbarItemStyle li span {
+	padding-right: 10px;
+	border-right: 1px solid black;
+}
+
+.placeName:hover {
+	/* background-color: #87AAAA; */
+	background-color: #cee5d0;
+}
+.searchField {
+	border-radius: 20px !important;
+}
+
+@media all and (max-width: 480px) {
+	.pageWrap {
+		padding: 20px 25px !important;
+		margin-bottom: 70px;
+	}
+}
